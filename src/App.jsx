@@ -16,6 +16,7 @@ const App = () => {
       <button onClick={()=> dispatch(decrement())}>Decrement</button>
       <input value={num} type="number" onChange={(e)=>setNum(e.target.value)} />
       <button onClick={()=> dispatch(IncrementByAmount(Number(num)))}>Increment By Amount</button>
+      <button onClick={()=>{ dispatch(decreaseByAmount(Number(num)))}}> Decrease By Amount</button>
     </div>
   )
 }
