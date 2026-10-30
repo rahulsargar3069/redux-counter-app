@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { decrement, increment, IncrementByAmount } from './ReduxStore/counterSlice'
+import { decrement, increment, IncrementByAmount , decreaseByAmount} from './ReduxStore/counterSlice'
 
 const App = () => {
 
